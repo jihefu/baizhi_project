@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ipcount">
+    <output-path>$PROJECT_DIR$/HadoopMR01</output-path>
+    <root id="archive" name="ipcount.jar">
+      <element id="module-output" name="HadoopMR01" />
+    </root>
+  </artifact>
+</component>

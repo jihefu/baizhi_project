@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+    <!--
+        JDKHSFProxy proxy=new JDKHSFProxy(IDemoService.class,new ZookeeperReigstry("192.168.100.128:2181"));
+        proxy.setCluster(new FailoverCluster());
+        proxy.setRouter(new DefaultRouter());
+        proxy.setLoadBalancer(new RandomLoadbalancer());
+        proxy.setTransfer(new NettyTransfer());
+    -->
+    <!--
+    <bean id="demoService" class="com.xxx.consumer.JDKHSFProxy"  >
+        <constructor-arg name="registry" ref="zookeeperReigstry"/>
+        <constructor-arg name="targetInterface" value="com.baizhi.IDemoService"/>
+        <property name="cluster" ref="failoverCluster"/>
+        <property name="loadBalancer" ref="randomLoadbalancer"/>
+        <property name="router" ref="defaultRouter"/>
+        <property name="transfer" ref="nettyTransfer"/>
+    </bean>
+    <bean id="failoverCluster" class="com.xxx.impl.FailoverCluster"/>
+    <bean id="randomLoadbalancer" class="com.xxx.impl.RandomLoadbalancer"/>
+    <bean id="defaultRouter" class="com.xxx.impl.DefaultRouter"/>
+    <bean id="nettyTransfer" class="com.xxx.impl.NettyTransfer"/>
+-->
+    <bean id="zookeeperReigstry" class="com.xxx.impl.ZookeeperReigstry" destroy-method="close">
+        <constructor-arg name="servers" value="192.168.100.128:2181"/>
+    </bean>
+    <bean class="com.xxx.ProxyConfigurer">
+        <property name="registry" ref="zookeeperReigstry"/>
+        <property name="refereces">
+            <list>
+                <bean class="com.xxx.ReferenceConfig">
+                    <constructor-arg name="id" value="userService"/>
+                    <constructor-arg name="targetInterface" value="com.xxx.service.IUserService"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+</beans>

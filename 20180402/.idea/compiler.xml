@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Dubbo01" />
+        <module name="Dubbo02" />
+        <module name="Dubbo03" />
+        <module name="fastdfs_client" />
+        <module name="fastdfs_springboot" />
+        <module name="FlumeDemo" />
+        <module name="freemarker_demo" />
+        <module name="freemarker_springboot" />
+        <module name="freemarker_springmvc" />
+        <module name="HadoopHDFSDemo" />
+        <module name="HadoopMR01" />
+        <module name="HadoopMR02" />
+        <module name="HadoopMR03" />
+        <module name="HadoopMR04" />
+        <module name="HadoopMR05" />
+        <module name="HadoopMR06" />
+        <module name="HadoopMR07" />
+        <module name="HadoopMR08" />
+        <module name="HadoopMR09" />
+        <module name="HadoopMR10" />
+        <module name="HbaseDemo" />
+        <module name="HbaseMapReduce" />
+        <module name="HiveDemo" />
+        <module name="HSFConsumer" />
+        <module name="HSFFramework" />
+        <module name="HSFProvider01" />
+        <module name="HSFProvider02" />
+        <module name="memached_demo" />
+        <module name="MongoDBDemo" />
+        <module name="NettyDemo" />
+        <module name="quartz_demo" />
+        <module name="quartz_spring" />
+        <module name="springboot_mybatis" />
+        <module name="SpringDataMongoDB" />
+        <module name="UserCenter" />
+        <module name="UserCloud" />
+        <module name="ZookeeperDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Dubbo01" target="1.5" />
+      <module name="Dubbo02" target="1.5" />
+      <module name="Dubbo03" target="1.5" />
+      <module name="fastdfs_client" target="1.5" />
+      <module name="fastdfs_springboot" target="1.7" />
+      <module name="FlumeDemo" target="1.5" />
+      <module name="freemarker_demo" target="1.5" />
+      <module name="freemarker_springboot" target="1.8" />
+      <module name="freemarker_springmvc" target="1.7" />
+      <module name="HadoopHDFSDemo" target="1.5" />
+      <module name="HadoopMR01" target="1.5" />
+      <module name="HadoopMR02" target="1.5" />
+      <module name="HadoopMR03" target="1.5" />
+      <module name="HadoopMR04" target="1.5" />
+      <module name="HadoopMR05" target="1.5" />
+      <module name="HadoopMR06" target="1.5" />
+      <module name="HadoopMR07" target="1.5" />
+      <module name="HadoopMR08" target="1.5" />
+      <module name="HadoopMR09" target="1.5" />
+      <module name="HadoopMR10" target="1.5" />
+      <module name="HbaseDemo" target="1.5" />
+      <module name="HbaseMapReduce" target="1.5" />
+      <module name="HiveDemo" target="1.5" />
+      <module name="HSFConsumer" target="1.5" />
+      <module name="HSFFramework" target="1.5" />
+      <module name="HSFProvider01" target="1.5" />
+      <module name="HSFProvider02" target="1.5" />
+      <module name="KafkaDemo" target="1.5" />
+      <module name="memached_demo" target="1.5" />
+      <module name="MongoDBDemo" target="1.5" />
+      <module name="NettyDemo" target="1.5" />
+      <module name="quartz_demo" target="1.5" />
+      <module name="quartz_spring" target="1.5" />
+      <module name="springboot_mybatis" target="1.8" />
+      <module name="SpringDataMongoDB" target="1.5" />
+      <module name="springmvc_freemarker" target="1.5" />
+      <module name="UserCenter" target="1.5" />
+      <module name="UserCloud" target="1.5" />
+      <module name="ZookeeperDemo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

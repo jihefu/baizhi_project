@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!-- ftl 语法-->
+    <h1>Hello！${name}</h1>
+
+    <!--<# 标签名></#标签名>-->
+
+    <#-- freemarker注释 文本输出不会保留 -->
+
+    <#-- 如何取集合中数据  -->
+    <#-- key as 别名 -->
+    <#list ball as b>
+        <li>${b}</li>
+    </#list>
+
+    <hr>
+    <#-- 展示map集合  获取map的key的集合 给key起别名-->
+    <#list citys?keys as key>
+        <li>${key}——>${citys[key]}</li>
+    </#list>
+
+    <hr>
+    <#-- 如何获取对象中的value-->
+    ${user.id} -> ${user.name}
+
+    <hr>
+    <#--条件判断-->
+    <#if boolean>
+        my name is zs
+        <#-- else语句需要卸载if里面 并且没有结束标签-->
+        <#else>
+        my name is not zs
+    </#if>
+
+    <hr>
+    <#--日期类型处理  必须指定日期格式-->
+        <li>${date?date}</li>
+        <li>${date?time}</li>
+        <li>${date?datetime}</li>
+        <li>${date?string("yyyy年MM月dd")}</li>
+    <hr>
+    <#--对空值的处理-->
+        ${exists!"myDefault"}
+    <hr>
+    <#--获取boolean-->
+        ${boolean?string('yes', 'no')}
+</body>
+</html>

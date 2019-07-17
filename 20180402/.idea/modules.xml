@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dubbo01/Dubbo01.iml" filepath="$PROJECT_DIR$/Dubbo01/Dubbo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dubbo02/Dubbo02.iml" filepath="$PROJECT_DIR$/Dubbo02/Dubbo02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dubbo03/Dubbo03.iml" filepath="$PROJECT_DIR$/Dubbo03/Dubbo03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlumeDemo/FlumeDemo.iml" filepath="$PROJECT_DIR$/FlumeDemo/FlumeDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HSFConsumer/HSFConsumer.iml" filepath="$PROJECT_DIR$/HSFConsumer/HSFConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HSFFramework/HSFFramework.iml" filepath="$PROJECT_DIR$/HSFFramework/HSFFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HSFProvider01/HSFProvider01.iml" filepath="$PROJECT_DIR$/HSFProvider01/HSFProvider01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HSFProvider02/HSFProvider02.iml" filepath="$PROJECT_DIR$/HSFProvider02/HSFProvider02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HadoopHDFSDemo/HadoopHDFSDemo.iml" filepath="$PROJECT_DIR$/HadoopHDFSDemo/HadoopHDFSDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HadoopMR01/HadoopMR01.iml" filepath="$PROJECT_DIR$/HadoopMR01/HadoopMR01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HadoopMR02/HadoopMR02.iml" filepath="$PROJECT_DIR$/HadoopMR02/HadoopMR02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HadoopMR03/HadoopMR03.iml" filepath="$PROJECT_DIR$/HadoopMR03/HadoopMR03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HadoopMR04/HadoopMR04.iml" filepath="$PROJECT_DIR$/HadoopMR04/HadoopMR04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HadoopMR05/HadoopMR05.iml" filepath="$PROJECT_DIR$/HadoopMR05/HadoopMR05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HadoopMR06/HadoopMR06.iml" filepath="$PROJECT_DIR$/HadoopMR06/HadoopMR06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HadoopMR07/HadoopMR07.iml" filepath="$PROJECT_DIR$/HadoopMR07/HadoopMR07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HadoopMR08/HadoopMR08.iml" filepath="$PROJECT_DIR$/HadoopMR08/HadoopMR08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HadoopMR09/HadoopMR09.iml" filepath="$PROJECT_DIR$/HadoopMR09/HadoopMR09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HadoopMR10/HadoopMR10.iml" filepath="$PROJECT_DIR$/HadoopMR10/HadoopMR10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HbaseDemo/HbaseDemo.iml" filepath="$PROJECT_DIR$/HbaseDemo/HbaseDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HbaseMapReduce/HbaseMapReduce.iml" filepath="$PROJECT_DIR$/HbaseMapReduce/HbaseMapReduce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HiveDemo/HiveDemo.iml" filepath="$PROJECT_DIR$/HiveDemo/HiveDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MongoDBDemo/MongoDBDemo.iml" filepath="$PROJECT_DIR$/MongoDBDemo/MongoDBDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NettyDemo/NettyDemo.iml" filepath="$PROJECT_DIR$/NettyDemo/NettyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDataMongoDB/SpringDataMongoDB.iml" filepath="$PROJECT_DIR$/SpringDataMongoDB/SpringDataMongoDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserCenter/UserCenter.iml" filepath="$PROJECT_DIR$/UserCenter/UserCenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserCloud/UserCloud.iml" filepath="$PROJECT_DIR$/UserCloud/UserCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZookeeperDemo/ZookeeperDemo.iml" filepath="$PROJECT_DIR$/ZookeeperDemo/ZookeeperDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fastdfs_client/fastdfs_client.iml" filepath="$PROJECT_DIR$/fastdfs_client/fastdfs_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fastdfs_springboot/fastdfs_springboot.iml" filepath="$PROJECT_DIR$/fastdfs_springboot/fastdfs_springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freemarker_demo/freemarker_demo.iml" filepath="$PROJECT_DIR$/freemarker_demo/freemarker_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freemarker_springboot/freemarker_springboot.iml" filepath="$PROJECT_DIR$/freemarker_springboot/freemarker_springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freemarker_springmvc/freemarker_springmvc.iml" filepath="$PROJECT_DIR$/freemarker_springmvc/freemarker_springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/memached_demo/memached_demo.iml" filepath="$PROJECT_DIR$/memached_demo/memached_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quartz_demo/quartz_demo.iml" filepath="$PROJECT_DIR$/quartz_demo/quartz_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quartz_spring/quartz_spring.iml" filepath="$PROJECT_DIR$/quartz_spring/quartz_spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mybatis/springboot_mybatis.iml" filepath="$PROJECT_DIR$/springboot_mybatis/springboot_mybatis.iml" />
+    </modules>
+  </component>
+</project>
